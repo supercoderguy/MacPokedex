@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		726C809F2DA4A0D800607B53 /* PokemonImages in Resources */ = {isa = PBXBuildFile; fileRef = 726C809E2DA4A0D800607B53 /* PokemonImages */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		72AC2E3B2DA35F6100563AB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		726C809E2DA4A0D800607B53 /* PokemonImages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PokemonImages; path = "MacPokédex/Assets/PokemonImages"; sourceTree = "<group>"; };
 		72AC2E2C2DA35F5E00563AB1 /* MacPokédex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacPokédex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AC2E3A2DA35F6100563AB1 /* MacPokédexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacPokédexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AC2E442DA35F6100563AB1 /* MacPokédexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacPokédexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		72AC2E232DA35F5E00563AB1 = {
 			isa = PBXGroup;
 			children = (
+				726C809E2DA4A0D800607B53 /* PokemonImages */,
 				72AC2E2E2DA35F5E00563AB1 /* MacPokédex */,
 				72AC2E3D2DA35F6100563AB1 /* MacPokédexTests */,
 				72AC2E472DA35F6100563AB1 /* MacPokédexUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726C809F2DA4A0D800607B53 /* PokemonImages in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,19 +399,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "MacPokédex/MacPoke_dex.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MacPokédex 1.0";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobStuff.MacPoke-dex";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobStuff.MacPokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -417,19 +427,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "MacPokédex/MacPoke_dex.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MacPokédex 1.0";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobStuff.MacPoke-dex";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobStuff.MacPokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
