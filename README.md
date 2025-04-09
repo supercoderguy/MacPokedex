@@ -5,6 +5,7 @@ Simple Pokédex app for macOS
 `requests 2.31.0`
 `tqdm 4.66.1`
 
+## Troubleshooting
 If you get an error saying 'MacPokédex Not Opened',
 1. Go to settings
 2. Scroll down to 'Privacy & Security'
