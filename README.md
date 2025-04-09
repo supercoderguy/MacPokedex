@@ -1,7 +1,7 @@
 # MacPokedex
 Simple Pokédex app for macOS
 
-# Requirements (Python)
+## Requirements (Python)
 `requests 2.31.0`
 `tqdm 4.66.1`
 
